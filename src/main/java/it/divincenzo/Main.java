@@ -27,6 +27,5 @@ public class Main {
 
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
             xmlMapper.writeValue(new File("src/main/resources/classe_serializzata.xml"), value);
-            File XMLFile = new File("classe_serializzata.xml");
     }
 }
